@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+
+    >
+
+
+
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        android:gravity="start|bottom"
+        android:id="@+id/textView"
+              />
+
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_gravity="center"
+
+    >
+    <Button
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/one"
+        android:textColor="@color/black"
+        style="@android:attr/buttonBarButtonStyle"
+        android:id="@+id/b1"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text= "@string/two"
+        android:textColor="@color/black"
+        style="@android:attr/buttonBarButtonStyle"
+        android:id="@+id/b2"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text= "@string/three"
+        android:textColor="@color/black"
+        style="@android:attr/buttonBarButtonStyle"
+        android:id="@+id/b3"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text= "@string/plus"
+        android:textColor="@color/black"
+        style="@android:attr/buttonBarButtonStyle"
+        android:id="@+id/bplus"
+
+        />
+
+</LinearLayout>
+    <LinearLayout
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        >
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text= "@string/four"
+            android:textColor="@color/black"
+            style="@android:attr/buttonBarButtonStyle"
+            android:id="@+id/b4"
+
+            />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text= "@string/five"
+            android:textColor="@color/black"
+            style="@android:attr/buttonBarButtonStyle"
+            android:id="@+id/b5"
+            />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text= "@string/six"
+            android:textColor="@color/black"
+            style="@android:attr/buttonBarButtonStyle"
+            android:id="@+id/b6"
+            />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text= "@string/subtract"
+            android:textColor="@color/black"
+            style="@android:attr/buttonBarButtonStyle"
+            android:id="@+id/bminus"
+            />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        >
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text= "@string/seven"
+            android:textColor="@color/black"
+            style="@android:attr/buttonBarButtonStyle"
+            android:id="@+id/b7"
+            />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text= "@string/eight"
+            android:textColor="@color/black"
+            style="@android:attr/buttonBarButtonStyle"
+            android:id="@+id/b8"
+            />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text= "@string/nine"
+            android:textColor="@color/black"
+            style="@android:attr/buttonBarButtonStyle"
+            android:id="@+id/b9"
+            />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text= "@string/multiply"
+            android:textColor="@color/black"
+            style="@android:attr/buttonBarButtonStyle"
+            android:id="@+id/btimes"
+            />
+
+    </LinearLayout>
+    <LinearLayout
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        >
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text= "@string/Clear"
+            android:textColor="@color/black"
+            style="@android:attr/buttonBarButtonStyle"
+            android:id="@+id/bclear"
+            />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text= "@string/zero"
+            android:textColor="@color/black"
+            style="@android:attr/buttonBarButtonStyle"
+            android:id="@+id/b0"
+            />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text= "@string/equal"
+            android:textColor="@color/black"
+            style="@android:attr/buttonBarButtonStyle"
+            android:id="@+id/bequal"
+            />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text= "@string/divide"
+            android:textColor="@color/black"
+            style="@android:attr/buttonBarButtonStyle"
+            android:id="@+id/bdivide"
+            />
+
+    </LinearLayout>
+    <Button
+        android:id="@+id/histButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/history"
+        android:layout_gravity="center"
+        android:backgroundTint="@color/MediumSlateBlue"
+
+        />
+
+    <TextView
+        android:id="@+id/textViewHist"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="invisible"
+
+        />
+
+</LinearLayout>
